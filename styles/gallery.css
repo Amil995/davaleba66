@@ -1,0 +1,47 @@
+
+.header{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+   
+}
+body{
+    margin: 0;
+}
+
+.logo{
+    padding: 18px;
+}
+
+.links>ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    transition: 0.5s;
+}
+.links>ul>li{
+    padding: 6px;
+}
+
+
+/*Footer*/
+
+.footer{
+    background-color: pink;
+
+}
+.footer1{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.images1>img:hover{
+    box-shadow: 60px -16px pink;
+}
+.images2>img:hover{
+    box-shadow: 60px -16px pink;
+}
+.images3>img:hover{
+    box-shadow: 60px -16px pink;
+}

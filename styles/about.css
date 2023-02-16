@@ -1,0 +1,49 @@
+
+.header{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+   
+}
+body{
+    margin: 0;
+}
+
+.logo{
+    padding: 18px;
+}
+
+.links>ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    transition: 0.5s;
+}
+.links>ul>li{
+    padding: 6px;
+}
+/*Header End*/
+
+.texts{
+    display: flex;
+    justify-content: space-around;
+}
+.text2{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: pink;
+
+}
+.footer1{
+    display: flex;
+    justify-content:space-between ;
+}
+
+
+
